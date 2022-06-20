@@ -6,10 +6,11 @@
 .home {
     background: #1F2937;
 }
+/* Navigation bar */
 .navbar {
     display: flex;
     margin: 0vw 13vw;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .logo h1 {
     font-size: 24px;
@@ -39,9 +40,41 @@
 .navlinks ul li a:active {
     color: yellow;
 }
+/* Hero */
 .hero {
     display: flex;
+    gap: 50px;
     margin: 0vw 13vw;
-    padding: 30px 0;
+    padding: 8vw 0;
 }
-.
+.hero-text {
+    flex: 1;
+}
+.hero-text h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.hero-text p {
+    color: #e5e7eb;
+    font-size: 24px;
+}
+.hero-text button {
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #e5e7eb;
+    background: #3882f6;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.hero-text button:hover{
+    background: yellow;
+    color: black;
+    cursor: pointer;
+}
+.hero-img {
+    width: 500px;
+    height: 350px;
+    border: 2px solid white;
+}
