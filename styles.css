@@ -43,6 +43,7 @@
 /* Hero */
 .hero {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     margin: 0vw 13vw;
     padding: 8vw 0;
@@ -73,8 +74,7 @@
     color: black;
     cursor: pointer;
 }
-.hero-img {
-    width: 500px;
-    height: 350px;
-    border: 2px solid white;
+.hero-img img{
+    max-width: 500px;
+    height: auto;
 }
