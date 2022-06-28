@@ -108,12 +108,9 @@
     display: flex;
     margin: 70px 0;
     background: #e5e7eb;
-    padding: 15vh 20vw;
+    padding: 10vw 20vw;
     justify-content: center;
     align-items: center;
-}
-.quote-text{
-    /* width: 60vw; */
 }
 .quote-text .quotetext{
     font-size: 36px;
